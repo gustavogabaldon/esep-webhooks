@@ -16,7 +16,7 @@ public class Function
     /// <param name="input"></param>
     /// <param name="context"></param>
     /// <returns></returns>
-    public string FunctionHandler(object input, ILambdaContext context)
+    public string FunctionHandler(string input, ILambdaContext context)
     {
         context.Logger.LogInformation($"FunctionHandler received: {input}");
 
